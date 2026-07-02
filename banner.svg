@@ -1,0 +1,142 @@
+<svg viewBox="0 0 1200 380" width="1200" height="380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Alchemy - Windows Performance Analyst">
+  <title>Alchemy - Windows Performance Analyst</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1020"/>
+      <stop offset="0.55" stop-color="#0B1526"/>
+      <stop offset="1" stop-color="#0D1D38"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#57ABFF"/>
+      <stop offset="1" stop-color="#1E63FF"/>
+    </linearGradient>
+    <linearGradient id="bladeLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FCBFF"/>
+      <stop offset="1" stop-color="#3E86F5"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4DA3FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#4DA3FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4DA3FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4DA3FF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#4DA3FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#0D1D38" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04070E" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2E7BFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2E7BFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <g stroke="#1A2E4E" stroke-width="1" opacity="0.5">
+    <path d="M0 34 H1200 M0 68 H1200 M0 102 H1200 M0 136 H1200 M0 170 H1200 M0 204 H1200 M0 238 H1200 M0 272 H1200 M0 306 H1200 M0 340 H1200"/>
+    <path d="M34 0 V380 M68 0 V380 M102 0 V380 M136 0 V380 M170 0 V380 M204 0 V380 M238 0 V380 M272 0 V380 M306 0 V380 M340 0 V380 M374 0 V380 M408 0 V380 M442 0 V380 M476 0 V380 M510 0 V380 M544 0 V380 M578 0 V380 M612 0 V380 M646 0 V380 M680 0 V380 M714 0 V380 M748 0 V380 M782 0 V380 M816 0 V380 M850 0 V380 M884 0 V380 M918 0 V380 M952 0 V380 M986 0 V380 M1020 0 V380 M1054 0 V380 M1088 0 V380 M1122 0 V380 M1156 0 V380 M1190 0 V380"/>
+  </g>
+  <rect width="1200" height="380" fill="url(#vig)"/>
+
+  <rect x="0" y="0" width="1200" height="70" fill="url(#scan)">
+    <animate attributeName="y" values="-70;380" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g stroke="#274A78" stroke-width="1.4" fill="none" opacity="0.8">
+    <path id="c1" d="M250 96 H360 L400 128 H470"/>
+    <path id="c2" d="M950 96 H840 L800 128 H730"/>
+    <path id="c3" d="M250 300 H360 L400 268 H470"/>
+    <path id="c4" d="M950 300 H840 L800 268 H730"/>
+  </g>
+  <g fill="#7FC0FF">
+    <circle r="3"><animateMotion dur="3s" repeatCount="indefinite"><mpath xlink:href="#c1"/></animateMotion><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath xlink:href="#c2"/></animateMotion><animate attributeName="opacity" values="0;1;0" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath xlink:href="#c3"/></animateMotion><animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion dur="3.6s" repeatCount="indefinite"><mpath xlink:href="#c4"/></animateMotion><animate attributeName="opacity" values="0;1;0" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g font-family="'Segoe UI','Consolas',monospace">
+    <g stroke="#2C4E7C" stroke-width="1.5" fill="none">
+      <path d="M44 52 V40 H56"/><path d="M256 52 V40 H244"/><path d="M44 140 V152 H56"/><path d="M256 140 V152 H244"/>
+    </g>
+    <text x="52" y="70" fill="#9FB4D4" font-size="12" letter-spacing="2">PERFORMANCE</text>
+    <path d="M108 128 A42 42 0 0 1 192 128" fill="none" stroke="#22375A" stroke-width="6"/>
+    <path d="M108 128 A42 42 0 0 1 172 96" fill="none" stroke="#3E86F5" stroke-width="6" stroke-linecap="round"/>
+    <line x1="150" y1="128" x2="150" y2="98" stroke="#7FC0FF" stroke-width="2.4" stroke-linecap="round" transform="rotate(-52 150 128)">
+      <animateTransform attributeName="transform" type="rotate" values="-58 150 128;46 150 128;-58 150 128" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="150" cy="128" r="3.4" fill="#7FC0FF"/>
+    <text x="150" y="122" fill="#DCE8FB" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="1">240 FPS</text>
+  </g>
+
+  <g font-family="'Segoe UI','Consolas',monospace">
+    <g stroke="#2C4E7C" stroke-width="1.5" fill="none">
+      <path d="M1156 52 V40 H1144"/><path d="M944 52 V40 H956"/><path d="M1156 140 V152 H1144"/><path d="M944 140 V152 H956"/>
+    </g>
+    <text x="1148" y="70" fill="#9FB4D4" font-size="12" letter-spacing="2" text-anchor="end">FRAME-TIME</text>
+    <polygon points="958,128 985,116 1010,122 1035,104 1060,110 1085,92 1112,100 1142,84 1142,132 958,132" fill="url(#spark)"/>
+    <polyline points="958,128 985,116 1010,122 1035,104 1060,110 1085,92 1112,100 1142,84" fill="none" stroke="#4DA3FF" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="260" stroke-dashoffset="260">
+      <animate attributeName="stroke-dashoffset" values="260;0" dur="2.6s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="3.2" fill="#DCE8FB">
+      <animateMotion dur="2.6s" repeatCount="indefinite" path="M958,128 L985,116 L1010,122 L1035,104 L1060,110 L1085,92 L1112,100 L1142,84"/>
+    </circle>
+    <text x="1148" y="150" fill="#DCE8FB" font-size="14" font-weight="700" text-anchor="end" letter-spacing="1">4.1 ms avg</text>
+  </g>
+
+  <g font-family="'Segoe UI','Consolas',monospace">
+    <g stroke="#2C4E7C" stroke-width="1.5" fill="none">
+      <path d="M44 240 V252 H56"/><path d="M256 240 V252 H244"/><path d="M44 350 V338 H56"/><path d="M256 350 V338 H244"/>
+    </g>
+    <text x="52" y="266" fill="#9FB4D4" font-size="12" letter-spacing="2">OPTIMIZATION PROFILE</text>
+    <g stroke="#22375A" stroke-width="3" stroke-linecap="round">
+      <line x1="60" y1="288" x2="240" y2="288"/><line x1="60" y1="304" x2="240" y2="304"/><line x1="60" y1="320" x2="240" y2="320"/><line x1="60" y1="336" x2="240" y2="336"/>
+    </g>
+    <g fill="#3E86F5" stroke="#7FC0FF" stroke-width="1.5">
+      <circle cx="150" cy="288" r="5"><animate attributeName="cx" values="120;190;120" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="180" cy="304" r="5"><animate attributeName="cx" values="200;150;200" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="320" r="5"><animate attributeName="cx" values="100;170;100" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="336" r="5"><animate attributeName="cx" values="210;140;210" dur="6.5s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <g font-family="'Segoe UI','Consolas',monospace">
+    <g stroke="#2C4E7C" stroke-width="1.5" fill="none">
+      <path d="M1156 240 V252 H1144"/><path d="M944 240 V252 H956"/><path d="M1156 350 V338 H1144"/><path d="M944 350 V338 H956"/>
+    </g>
+    <text x="1148" y="266" fill="#9FB4D4" font-size="12" letter-spacing="2" text-anchor="end">SYSTEM TUNED</text>
+    <g transform="translate(1050 312)">
+      <g stroke="#4DA3FF" stroke-width="3" fill="none">
+        <circle r="14"/>
+        <g>
+          <line x1="0" y1="-22" x2="0" y2="-18"/><line x1="0" y1="22" x2="0" y2="18"/><line x1="-22" y1="0" x2="-18" y2="0"/><line x1="22" y1="0" x2="18" y2="0"/>
+          <line x1="-15.5" y1="-15.5" x2="-12.7" y2="-12.7"/><line x1="15.5" y1="15.5" x2="12.7" y2="12.7"/><line x1="-15.5" y1="15.5" x2="-12.7" y2="12.7"/><line x1="15.5" y1="-15.5" x2="12.7" y2="-12.7"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+        </g>
+      </g>
+      <circle r="5.5" fill="#3E86F5"/>
+    </g>
+  </g>
+
+  <g font-family="'Consolas','Segoe UI',monospace" font-size="11" letter-spacing="1">
+    <text x="360" y="180" fill="#66799A">DPC LATENCY</text><text x="360" y="196" fill="#7FC0FF" font-size="13">0.04 ms</text>
+    <text x="360" y="252" fill="#66799A">INPUT LAG</text><text x="360" y="268" fill="#6FE3B0" font-size="13">&#9660; 38%</text>
+    <text x="840" y="180" fill="#66799A" text-anchor="end">1% LOW</text><text x="840" y="196" fill="#7FC0FF" font-size="13" text-anchor="end">198 &#9650;</text>
+    <text x="840" y="252" fill="#66799A" text-anchor="end">CPU</text><text x="840" y="268" fill="#DCE8FB" font-size="13" text-anchor="end">2 %</text>
+    <text x="470" y="352" fill="#66799A">GPU <tspan fill="#7FC0FF">99%</tspan></text>
+    <text x="700" y="352" fill="#66799A" text-anchor="end">RAM <tspan fill="#6FE3B0">OK</tspan></text>
+  </g>
+
+  <g font-family="'Segoe UI',monospace">
+    <g fill="#4DA3FF">
+      <rect x="588" y="30" width="9" height="9" rx="1"/><rect x="600" y="30" width="9" height="9" rx="1"/><rect x="588" y="42" width="9" height="9" rx="1"/><rect x="600" y="42" width="9" height="9" rx="1"/>
+    </g>
+    <text x="600" y="66" fill="#66799A" font-size="10" letter-spacing="3" text-anchor="middle">WINDOWS OPTIMIZED</text>
+  </g>
+
+</svg>
