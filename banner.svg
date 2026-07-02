@@ -139,4 +139,30 @@
     <text x="600" y="66" fill="#66799A" font-size="10" letter-spacing="3" text-anchor="middle">WINDOWS OPTIMIZED</text>
   </g>
 
+  <g stroke="#24406B" stroke-width="1.2" fill="none" opacity="0.7">
+    <path d="M470 128 L574 190"/>
+    <path d="M730 128 L626 190"/>
+    <path d="M470 268 L574 210"/>
+    <path d="M730 268 L626 210"/>
+  </g>
+  <g fill="none">
+    <circle cx="600" cy="200" r="38" stroke="#2C4E7C" stroke-width="1.2" stroke-dasharray="3 9">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 200" to="360 600 200" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="200" r="24" stroke="#274A78" stroke-width="1"/>
+    <circle cx="600" cy="200" r="11" stroke="#3E86F5" stroke-width="1.4"/>
+    <g stroke="#3E86F5" stroke-width="1.6">
+      <line x1="600" y1="156" x2="600" y2="148"/>
+      <line x1="600" y1="244" x2="600" y2="252"/>
+      <line x1="556" y1="200" x2="548" y2="200"/>
+      <line x1="644" y1="200" x2="652" y2="200"/>
+    </g>
+    <line x1="600" y1="200" x2="600" y2="163" stroke="#4DA3FF" stroke-width="2" stroke-linecap="round" opacity="0.75">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 200" to="360 600 200" dur="7s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="600" cy="200" r="3.2" fill="#7FC0FF" stroke="none">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
 </svg>
